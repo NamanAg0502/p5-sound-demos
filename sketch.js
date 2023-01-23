@@ -2,8 +2,8 @@ let song, fft, img;
 let particles = [];
 
 function preload() {
-  song = loadSound('./cairo-21956.mp3');
-  img = loadImage('./bg.jpg');
+  song = loadSound('./src/cairo-21956.mp3');
+  img = loadImage('./src/bg.jpg');
 }
 
 function setup() {
